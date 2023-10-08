@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
+}
+.container{
+    width: 100%;
+    height: 100%vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 40rem;
+    height: 30rem;
+    background-color: rgb(2 , .160, .245);
+    padding: 2rem;
+    color:white;
+    box-shadow: 0.5rem 0.5rem 0.5rem #222;
+    font-size: 2rem;
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow:1.5rem 1rem 1rem #333, -0.5rem 0 0.5rem #333; ;
+}
+.card-title{
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top:2rem ;
+
+}
+.form-field{
+    margin-bottom: 1rem;
+}
+input{
+    border:none;
+   border:1rem solid;
+   border-radius: 0.5rem;
+   padding:0.2rem;
+   background-color: rgb(4,.117,.238);
+   color: white;
+   cursor: pointer;
+   font-size: 1.2rem;
+   width:30%;
+}
+input:hover{
+    background-color:midnightblue;
+}
+.buttons{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    border: none;
+    
+    border:0.2rem solid;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-size:1.5rem;
+    background-color:gray;
+    transition: all 0.3s;  
+}
+.btn:hover{
+    background-color:white;
+}
+
+.large-text{
+    font-size:2rem;
+    color:violet;
+}
